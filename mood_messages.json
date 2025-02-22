@@ -1,0 +1,86 @@
+{
+    "angry": {
+        "messages": [
+            "Breathe in, breathe out. Let it go!",
+            "Anger is one letter short of danger.",
+            "Keep calm and carry on."
+        ],
+        "activities": [
+            "Try meditation 🧘",
+            "Go for a relaxing walk 🚶‍♂️",
+            "Listen to calming music 🎵"
+        ]
+    },
+    "disgust": {
+        "messages": [
+            "The world is not perfect, but it’s still beautiful.",
+            "Turn your disgust into determination!",
+            "A clean heart sees a beautiful world."
+        ],
+        "activities": [
+            "Practice gratitude 🙏",
+            "Focus on something positive 🌞",
+            "Do an activity you love 🎨"
+        ]
+    },
+    "fear": {
+        "messages": [
+            "Fear is just excitement without breath.",
+            "Courage is not the absence of fear, but triumph over it.",
+            "Do one thing every day that scares you!"
+        ],
+        "activities": [
+            "Take deep breaths 🧘",
+            "Talk to a supportive friend ☎️",
+            "Write down what you fear and challenge it ✍️"
+        ]
+    },
+    "happy": {
+        "messages": [
+            "Keep smiling, life is beautiful!",
+            "Happiness is contagious, spread it!",
+            "The best way to multiply your happiness is to share it."
+        ],
+        "activities": [
+            "Dance to your favorite song 💃",
+            "Call a friend and share your happiness ☎️",
+            "Do something creative 🎨"
+        ]
+    },
+    "neutral": {
+        "messages": [
+            "Every moment is a fresh beginning.",
+            "A balanced mind is a happy mind.",
+            "Life is a journey, enjoy the ride!"
+        ],
+        "activities": [
+            "Read a book 📖",
+            "Go for a peaceful walk 🚶‍♂️",
+            "Listen to calming music 🎶"
+        ]
+    },
+    "sad": {
+        "messages": [
+            "Tough times don’t last, but tough people do.",
+            "Sadness flies away on the wings of time.",
+            "Behind every dark cloud, there's a silver lining."
+        ],
+        "activities": [
+            "Watch a comforting movie 🎬",
+            "Write in a journal 📖",
+            "Talk to a loved one ❤️"
+        ]
+    },
+    "surprise": {
+        "messages": [
+            "Expect the unexpected!",
+            "Life is full of surprises!",
+            "Surprise yourself every day!"
+        ],
+        "activities": [
+            "Try something new today! ✨",
+            "Celebrate small victories 🎉",
+            "Share a fun fact with someone 🗣️"
+        ]
+    }
+}
