@@ -43,7 +43,7 @@ webcamBtn.addEventListener("click", function () {
         webcamElement.srcObject = stream;
         webcamElement.hidden = false;
         previewImage.hidden = true;
-        
+
         webcamBtn.classList.add("hidden"); // Hide "Open Webcam" Button
         captureBtn.classList.remove("hidden"); // ✅ Show Capture Button
 
@@ -120,6 +120,8 @@ uploadBtn.addEventListener("click", function () {
       if (data.error) {
         alert("Error: " + data.error);
       } else {
+        // **Update UI with detected face image**
+        previewImage.src = "data:image/jpeg;base64," + data.processed_image;
         emotionText.textContent = data.emotion;
         messageText.textContent = data.message;
         activityText.textContent = data.activity;
