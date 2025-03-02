@@ -25,12 +25,14 @@ This is a Flask-based API for detecting facial emotions in images using DeepFace
 
 ## Installation
 
-```bash
 # Clone the repository
+```bash
 git clone https://github.com/sachinchavda17/Face-Emotion-Flask.git
 cd Face-Emotion-Flask
+```
 
 # Install dependencies
+```bash
 pip install -r requirements.txt
 ```
 
