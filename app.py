@@ -17,16 +17,16 @@ face_cascade = cv2.CascadeClassifier(cv2.data.haarcascades + 'haarcascade_fronta
 def detect_face(image):
     """Detect faces in an image and draw bounding boxes."""
     gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
-    faces = face_cascade.detectMultiScale(gray, 1.3, 5)  # Adjust scaleFactor and minNeighbors if needed
+    faces = face_cascade.detectMultiScale(gray, 1.3, 5) # Method to find faces in the image
 
     if len(faces) == 0:
         return None, "No face detected! Please try again with a clear face photo."
 
     # Draw bounding box on detected face(s)
     for (x, y, w, h) in faces:
-        cv2.rectangle(image, (x, y), (x + w, y + h), (0, 255, 0), 3)  # Green rectangle
+        cv2.rectangle(image, (x, y), (x + w, y + h), (0, 255, 0), 3)
 
-    return image, None  # Return the processed image
+    return image, None
 
 @app.route("/")
 def home():

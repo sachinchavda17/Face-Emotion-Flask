@@ -44,8 +44,8 @@ webcamBtn.addEventListener("click", function () {
         webcamElement.hidden = false;
         previewImage.hidden = true;
 
-        webcamBtn.classList.add("hidden"); // Hide "Open Webcam" Button
-        captureBtn.classList.remove("hidden"); // ✅ Show Capture Button
+        webcamBtn.classList.add("hidden"); 
+        captureBtn.classList.remove("hidden"); 
 
         webcamActive = true;
       })
@@ -58,7 +58,7 @@ webcamBtn.addEventListener("click", function () {
 // 📌 Capture Image from Webcam
 captureBtn.addEventListener("click", function () {
   let canvas = document.createElement("canvas");
-  canvas.width = 384; // ✅ Matches image preview size
+  canvas.width = 384;
   canvas.height = 384;
   canvas.getContext("2d").drawImage(webcamElement, 0, 0, 384, 384);
 
@@ -72,8 +72,8 @@ captureBtn.addEventListener("click", function () {
   tracks.forEach((track) => track.stop());
 
   webcamActive = false;
-  webcamBtn.classList.remove("hidden"); // ✅ Show "Open Webcam" Button Again
-  captureBtn.classList.add("hidden"); // ✅ Hide Capture Button
+  webcamBtn.classList.remove("hidden"); 
+  captureBtn.classList.add("hidden");
 
   latestImage = dataURItoBlob(imageDataURL);
   resetResults();
