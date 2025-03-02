@@ -69,5 +69,9 @@ def predict():
 
     return jsonify({"error": "No image uploaded"}), 400
 
+# Vercel needs this for serving the Flask app
+def handler(event, context):
+    return app(event, context)
+
 if __name__ == "__main__":
     app.run(debug=True)
